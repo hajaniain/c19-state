@@ -23,6 +23,29 @@
 <div class="content" role="main">
   <!-- Highlight Card -->
 
+  <form class="departement-form">
+    <mat-form-field class="departement-name">
+      <input
+        type="text"
+        placeholder="Departement"
+        aria-label="Number"
+        name="departement"
+        matInput
+        [formControl]="departementFormControl"
+        [matAutocomplete]="auto"
+      />
+      <mat-autocomplete autoActiveFirstOption #auto="matAutocomplete">
+        <mat-option
+          *ngFor="let option of departements$ | async"
+          [value]="option.NOM"
+          (click)="selectDepartement(option)"
+        >
+          {{ option.NOM }} <span class="zipcode">{{ option.NUMERO }}</span>
+        </mat-option>
+      </mat-autocomplete>
+    </mat-form-field>
+  </form>
+
   <ng-container
     *ngIf="franceLiveGlobalLiveData$ | async as franceLiveGlobalLiveData"
   >

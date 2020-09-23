@@ -1,0 +1,920 @@
+[
+    {
+      "NUMERO": 1,
+      "NOM": "Ain",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Bourg-en-Bresse",
+      "SUPERFICIE": 5762,
+      "POPULATION": 631877,
+      "DENSITE": 109.7
+    },
+    {
+      "NUMERO": 2,
+      "NOM": "Aisne",
+      "REGION": "Hauts-de-France",
+      "CHEF_LIEU": "Laon",
+      "SUPERFICIE": 7369,
+      "POPULATION": 538659,
+      "DENSITE": 73.1
+    },
+    {
+      "NUMERO": 3,
+      "NOM": "Allier",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Moulins",
+      "SUPERFICIE": 7340,
+      "POPULATION": 341613,
+      "DENSITE": 46.5
+    },
+    {
+      "NUMERO": 4,
+      "NOM": "Alpes-de-Haute-Provence",
+      "REGION": "Provence-Alpes-Côte d'Azur",
+      "CHEF_LIEU": "Digne",
+      "SUPERFICIE": 6925,
+      "POPULATION": 161799,
+      "DENSITE": 23.4
+    },
+    {
+      "NUMERO": 5,
+      "NOM": "Hautes-Alpes",
+      "REGION": "Provence-Alpes-Côte d'Azur",
+      "CHEF_LIEU": "Gap",
+      "SUPERFICIE": 5549,
+      "POPULATION": 140916,
+      "DENSITE": 25.4
+    },
+    {
+      "NUMERO": 6,
+      "NOM": "Alpes-Maritimes",
+      "REGION": "Provence-Alpes-Côte d'Azur",
+      "CHEF_LIEU": "Nice",
+      "SUPERFICIE": 4299,
+      "POPULATION": 1082440,
+      "DENSITE": 251.8
+    },
+    {
+      "NUMERO": 7,
+      "NOM": "Ardèche",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Privas",
+      "SUPERFICIE": 5529,
+      "POPULATION": 324209,
+      "DENSITE": 58.6
+    },
+    {
+      "NUMERO": 8,
+      "NOM": "Ardennes",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Charleville-Mézières",
+      "SUPERFICIE": 5229,
+      "POPULATION": 277752,
+      "DENSITE": 53.1
+    },
+    {
+      "NUMERO": 9,
+      "NOM": "Ariège",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Foix",
+      "SUPERFICIE": 4890,
+      "POPULATION": 152499,
+      "DENSITE": 31.2
+    },
+    {
+      "NUMERO": 10,
+      "NOM": "Aube",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Troyes",
+      "SUPERFICIE": 6004,
+      "POPULATION": 309056,
+      "DENSITE": 51.5
+    },
+    {
+      "NUMERO": 11,
+      "NOM": "Aude",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Carcassonne",
+      "SUPERFICIE": 6139,
+      "POPULATION": 366957,
+      "DENSITE": 59.8
+    },
+    {
+      "NUMERO": 12,
+      "NOM": "Aveyron",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Rodez",
+      "SUPERFICIE": 8735,
+      "POPULATION": 279169,
+      "DENSITE": 32
+    },
+    {
+      "NUMERO": 13,
+      "NOM": "Bouches-du-Rhône",
+      "REGION": "Provence-Alpes-Côte d'Azur",
+      "CHEF_LIEU": "Marseille",
+      "SUPERFICIE": 5088,
+      "POPULATION": 2016622,
+      "DENSITE": 396.4
+    },
+    {
+      "NUMERO": 14,
+      "NOM": "Calvados",
+      "REGION": "Normandie",
+      "CHEF_LIEU": "Caen",
+      "SUPERFICIE": 5548,
+      "POPULATION": 693579,
+      "DENSITE": 125
+    },
+    {
+      "NUMERO": 15,
+      "NOM": "Cantal",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Aurillac",
+      "SUPERFICIE": 5726,
+      "POPULATION": 146219,
+      "DENSITE": 25.5
+    },
+    {
+      "NUMERO": 16,
+      "NOM": "Charente",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Angoulême",
+      "SUPERFICIE": 5956,
+      "POPULATION": 353613,
+      "DENSITE": 59.4
+    },
+    {
+      "NUMERO": 17,
+      "NOM": "Charente-Maritime",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "La Rochelle",
+      "SUPERFICIE": 6864,
+      "POPULATION": 639938,
+      "DENSITE": 93.2
+    },
+    {
+      "NUMERO": 18,
+      "NOM": "Cher",
+      "REGION": "Centre-Val de Loire",
+      "CHEF_LIEU": "Bourges",
+      "SUPERFICIE": 7235,
+      "POPULATION": 308992,
+      "DENSITE": 42.7
+    },
+    {
+      "NUMERO": 19,
+      "NOM": "Corrèze",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Tulle",
+      "SUPERFICIE": 5857,
+      "POPULATION": 241871,
+      "DENSITE": 41.3
+    },
+    {
+      "NUMERO": "2A",
+      "NOM": "Corse-du-Sud",
+      "REGION": "Corse",
+      "CHEF_LIEU": "Ajaccio",
+      "SUPERFICIE": 4014,
+      "POPULATION": 152730,
+      "DENSITE": 38
+    },
+    {
+      "NUMERO": "2B",
+      "NOM": "Haute-Corse",
+      "REGION": "Corse",
+      "CHEF_LIEU": "Bastia",
+      "SUPERFICIE": 4666,
+      "POPULATION": 174553,
+      "DENSITE": 37.4
+    },
+    {
+      "NUMERO": 21,
+      "NOM": "Côte-d'Or",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Dijon",
+      "SUPERFICIE": 8763,
+      "POPULATION": 533147,
+      "DENSITE": 60.8
+    },
+    {
+      "NUMERO": 22,
+      "NOM": "Côtes d'Armor",
+      "REGION": "Bretagne",
+      "CHEF_LIEU": "Saint-Brieuc",
+      "SUPERFICIE": 6878,
+      "POPULATION": 598357,
+      "DENSITE": 87
+    },
+    {
+      "NUMERO": 23,
+      "NOM": "Creuse",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Guéret",
+      "SUPERFICIE": 5565,
+      "POPULATION": 120365,
+      "DENSITE": 21.6
+    },
+    {
+      "NUMERO": 24,
+      "NOM": "Dordogne",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Périgueux",
+      "SUPERFICIE": 9060,
+      "POPULATION": 415417,
+      "DENSITE": 45.9
+    },
+    {
+      "NUMERO": 25,
+      "NOM": "Doubs",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Besançon",
+      "SUPERFICIE": 5233,
+      "POPULATION": 536959,
+      "DENSITE": 102.6
+    },
+    {
+      "NUMERO": 26,
+      "NOM": "Drôme",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Valence",
+      "SUPERFICIE": 6530,
+      "POPULATION": 504637,
+      "DENSITE": 77.3
+    },
+    {
+      "NUMERO": 27,
+      "NOM": "Eure",
+      "REGION": "Normandie",
+      "CHEF_LIEU": "Évreux",
+      "SUPERFICIE": 6040,
+      "POPULATION": 601948,
+      "DENSITE": 99.7
+    },
+    {
+      "NUMERO": 28,
+      "NOM": "Eure-et-Loir",
+      "REGION": "Centre-Val de Loire",
+      "CHEF_LIEU": "Chartres",
+      "SUPERFICIE": 5880,
+      "POPULATION": 434035,
+      "DENSITE": 73.8
+    },
+    {
+      "NUMERO": 29,
+      "NOM": "Finistère",
+      "REGION": "Bretagne",
+      "CHEF_LIEU": "Quimper",
+      "SUPERFICIE": 6733,
+      "POPULATION": 907796,
+      "DENSITE": 134.8
+    },
+    {
+      "NUMERO": 30,
+      "NOM": "Gard",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Nîmes",
+      "SUPERFICIE": 5853,
+      "POPULATION": 738189,
+      "DENSITE": 126.1
+    },
+    {
+      "NUMERO": 31,
+      "NOM": "Haute-Garonne",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Toulouse",
+      "SUPERFICIE": 6309,
+      "POPULATION": 1335103,
+      "DENSITE": 211.6
+    },
+    {
+      "NUMERO": 32,
+      "NOM": "Gers",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Auch",
+      "SUPERFICIE": 6257,
+      "POPULATION": 190932,
+      "DENSITE": 30.5
+    },
+    {
+      "NUMERO": 33,
+      "NOM": "Gironde",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Bordeaux",
+      "SUPERFICIE": 9976,
+      "POPULATION": 1548478,
+      "DENSITE": 155.2
+    },
+    {
+      "NUMERO": 34,
+      "NOM": "Hérault",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Montpellier",
+      "SUPERFICIE": 6101,
+      "POPULATION": 1120190,
+      "DENSITE": 183.6
+    },
+    {
+      "NUMERO": 35,
+      "NOM": "Ille-et-Vilaine",
+      "REGION": "Bretagne",
+      "CHEF_LIEU": "Rennes",
+      "SUPERFICIE": 6775,
+      "POPULATION": 1042884,
+      "DENSITE": 153.9
+    },
+    {
+      "NUMERO": 36,
+      "NOM": "Indre",
+      "REGION": "Centre-Val de Loire",
+      "CHEF_LIEU": "Châteauroux",
+      "SUPERFICIE": 6791,
+      "POPULATION": 224200,
+      "DENSITE": 33
+    },
+    {
+      "NUMERO": 37,
+      "NOM": "Indre-et-Loire",
+      "REGION": "Centre-Val de Loire",
+      "CHEF_LIEU": "Tours",
+      "SUPERFICIE": 6127,
+      "POPULATION": 604966,
+      "DENSITE": 98.7
+    },
+    {
+      "NUMERO": 38,
+      "NOM": "Isère",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Grenoble",
+      "SUPERFICIE": 7432,
+      "POPULATION": 1251060,
+      "DENSITE": 168.3
+    },
+    {
+      "NUMERO": 39,
+      "NOM": "Jura",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Lons-le-Saunier",
+      "SUPERFICIE": 4999,
+      "POPULATION": 260587,
+      "DENSITE": 52.1
+    },
+    {
+      "NUMERO": 40,
+      "NOM": "Landes",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Mont-de-Marsan",
+      "SUPERFICIE": 9243,
+      "POPULATION": 403234,
+      "DENSITE": 43.6
+    },
+    {
+      "NUMERO": 41,
+      "NOM": "Loir-et-Cher",
+      "REGION": "Centre-Val de Loire",
+      "CHEF_LIEU": "Blois",
+      "SUPERFICIE": 6343,
+      "POPULATION": 333050,
+      "DENSITE": 52.5
+    },
+    {
+      "NUMERO": 42,
+      "NOM": "Loire",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Saint-Étienne",
+      "SUPERFICIE": 4781,
+      "POPULATION": 759411,
+      "DENSITE": 158.9
+    },
+    {
+      "NUMERO": 43,
+      "NOM": "Haute-Loire",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Le Puy-en-Velay",
+      "SUPERFICIE": 4977,
+      "POPULATION": 227034,
+      "DENSITE": 45.6
+    },
+    {
+      "NUMERO": 44,
+      "NOM": "Loire-Atlantique",
+      "REGION": "Pays de la Loire",
+      "CHEF_LIEU": "Nantes",
+      "SUPERFICIE": 6809,
+      "POPULATION": 1365227,
+      "DENSITE": 200.5
+    },
+    {
+      "NUMERO": 45,
+      "NOM": "Loiret",
+      "REGION": "Centre-Val de Loire",
+      "CHEF_LIEU": "Orléans",
+      "SUPERFICIE": 6775,
+      "POPULATION": 673349,
+      "DENSITE": 99.4
+    },
+    {
+      "NUMERO": 46,
+      "NOM": "Lot",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Cahors",
+      "SUPERFICIE": 5217,
+      "POPULATION": 173400,
+      "DENSITE": 33.2
+    },
+    {
+      "NUMERO": 47,
+      "NOM": "Lot-et-Garonne",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Agen",
+      "SUPERFICIE": 5361,
+      "POPULATION": 333417,
+      "DENSITE": 62.2
+    },
+    {
+      "NUMERO": 48,
+      "NOM": "Lozère",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Mende",
+      "SUPERFICIE": 5167,
+      "POPULATION": 76309,
+      "DENSITE": 14.8
+    },
+    {
+      "NUMERO": 49,
+      "NOM": "Maine-et-Loire",
+      "REGION": "Pays de la Loire",
+      "CHEF_LIEU": "Angers",
+      "SUPERFICIE": 7172,
+      "POPULATION": 810186,
+      "DENSITE": 113
+    },
+    {
+      "NUMERO": 50,
+      "NOM": "Manche",
+      "REGION": "Normandie",
+      "CHEF_LIEU": "Saint-Lô",
+      "SUPERFICIE": 5938,
+      "POPULATION": 499287,
+      "DENSITE": 84.1
+    },
+    {
+      "NUMERO": 51,
+      "NOM": "Marne",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Châlons-en-Champagne",
+      "SUPERFICIE": 8162,
+      "POPULATION": 572293,
+      "DENSITE": 70.1
+    },
+    {
+      "NUMERO": 52,
+      "NOM": "Haute-Marne",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Chaumont",
+      "SUPERFICIE": 6211,
+      "POPULATION": 179154,
+      "DENSITE": 28.8
+    },
+    {
+      "NUMERO": 53,
+      "NOM": "Mayenne",
+      "REGION": "Pays de la Loire",
+      "CHEF_LIEU": "Laval",
+      "SUPERFICIE": 5175,
+      "POPULATION": 307940,
+      "DENSITE": 59.5
+    },
+    {
+      "NUMERO": 54,
+      "NOM": "Meurthe-et-Moselle",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Nancy",
+      "SUPERFICIE": 5246,
+      "POPULATION": 734403,
+      "DENSITE": 140
+    },
+    {
+      "NUMERO": 55,
+      "NOM": "Meuse",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Bar-le-Duc",
+      "SUPERFICIE": 6211,
+      "POPULATION": 190626,
+      "DENSITE": 30.7
+    },
+    {
+      "NUMERO": 56,
+      "NOM": "Morbihan",
+      "REGION": "Bretagne",
+      "CHEF_LIEU": "Vannes",
+      "SUPERFICIE": 6823,
+      "POPULATION": 744813,
+      "DENSITE": 109.2
+    },
+    {
+      "NUMERO": 57,
+      "NOM": "Moselle",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Metz",
+      "SUPERFICIE": 6216,
+      "POPULATION": 1044486,
+      "DENSITE": 168
+    },
+    {
+      "NUMERO": 58,
+      "NOM": "Nièvre",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Nevers",
+      "SUPERFICIE": 6817,
+      "POPULATION": 211747,
+      "DENSITE": 31.1
+    },
+    {
+      "NUMERO": 59,
+      "NOM": "Nord",
+      "REGION": "Hauts-de-France",
+      "CHEF_LIEU": "Lille",
+      "SUPERFICIE": 5743,
+      "POPULATION": 2605238,
+      "DENSITE": 453.7
+    },
+    {
+      "NUMERO": 60,
+      "NOM": "Oise",
+      "REGION": "Hauts-de-France",
+      "CHEF_LIEU": "Beauvais",
+      "SUPERFICIE": 5860,
+      "POPULATION": 821552,
+      "DENSITE": 140.2
+    },
+    {
+      "NUMERO": 61,
+      "NOM": "Orne",
+      "REGION": "Normandie",
+      "CHEF_LIEU": "Alençon",
+      "SUPERFICIE": 6103,
+      "POPULATION": 286618,
+      "DENSITE": 47
+    },
+    {
+      "NUMERO": 62,
+      "NOM": "Pas-de-Calais",
+      "REGION": "Hauts-de-France",
+      "CHEF_LIEU": "Arras",
+      "SUPERFICIE": 6671,
+      "POPULATION": 1472648,
+      "DENSITE": 220.7
+    },
+    {
+      "NUMERO": 63,
+      "NOM": "Puy-de-Dôme",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Clermont-Ferrand",
+      "SUPERFICIE": 7970,
+      "POPULATION": 647501,
+      "DENSITE": 81.2
+    },
+    {
+      "NUMERO": 64,
+      "NOM": "Pyrénées-Atlantiques",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Pau",
+      "SUPERFICIE": 7645,
+      "POPULATION": 670032,
+      "DENSITE": 87.6
+    },
+    {
+      "NUMERO": 65,
+      "NOM": "Hautes-Pyrénées",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Tarbes",
+      "SUPERFICIE": 4464,
+      "POPULATION": 228582,
+      "DENSITE": 51.2
+    },
+    {
+      "NUMERO": 66,
+      "NOM": "Pyrénées-Orientales",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Perpignan",
+      "SUPERFICIE": 4116,
+      "POPULATION": 471038,
+      "DENSITE": 114.4
+    },
+    {
+      "NUMERO": 67,
+      "NOM": "Bas-Rhin",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Strasbourg",
+      "SUPERFICIE": 4755,
+      "POPULATION": 1116658,
+      "DENSITE": 234.8
+    },
+    {
+      "NUMERO": 68,
+      "NOM": "Haut-Rhin",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Colmar",
+      "SUPERFICIE": 3525,
+      "POPULATION": 762607,
+      "DENSITE": 216.3
+    },
+    {
+      "NUMERO": 69,
+      "NOM": "Rhône",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Lyon",
+      "SUPERFICIE": 3249,
+      "POPULATION": 1821995,
+      "DENSITE": 560.8
+    },
+    {
+      "NUMERO": 70,
+      "NOM": "Haute-Saône",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Vesoul",
+      "SUPERFICIE": 5360,
+      "POPULATION": 237706,
+      "DENSITE": 44.3
+    },
+    {
+      "NUMERO": 71,
+      "NOM": "Saône-et-Loire",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Mâcon",
+      "SUPERFICIE": 8575,
+      "POPULATION": 555408,
+      "DENSITE": 64.8
+    },
+    {
+      "NUMERO": 72,
+      "NOM": "Sarthe",
+      "REGION": "Pays de la Loire",
+      "CHEF_LIEU": "Le Mans",
+      "SUPERFICIE": 6206,
+      "POPULATION": 568445,
+      "DENSITE": 91.6
+    },
+    {
+      "NUMERO": 73,
+      "NOM": "Savoie",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Chambéry",
+      "SUPERFICIE": 6028,
+      "POPULATION": 428204,
+      "DENSITE": 71
+    },
+    {
+      "NUMERO": 74,
+      "NOM": "Haute-Savoie",
+      "REGION": "Auvergne-Rhône-Alpes",
+      "CHEF_LIEU": "Annecy",
+      "SUPERFICIE": 4388,
+      "POPULATION": 793938,
+      "DENSITE": 180.9
+    },
+    {
+      "NUMERO": 75,
+      "NOM": "Paris",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Paris",
+      "SUPERFICIE": 105,
+      "POPULATION": 2206488,
+      "DENSITE": 20934.4
+    },
+    {
+      "NUMERO": 76,
+      "NOM": "Seine-Maritime",
+      "REGION": "Normandie",
+      "CHEF_LIEU": "Rouen",
+      "SUPERFICIE": 6278,
+      "POPULATION": 1257699,
+      "DENSITE": 200.3
+    },
+    {
+      "NUMERO": 77,
+      "NOM": "Seine-et-Marne",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Melun",
+      "SUPERFICIE": 5915,
+      "POPULATION": 1390121,
+      "DENSITE": 235
+    },
+    {
+      "NUMERO": 78,
+      "NOM": "Yvelines",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Versailles",
+      "SUPERFICIE": 2284,
+      "POPULATION": 1427291,
+      "DENSITE": 624.8
+    },
+    {
+      "NUMERO": 79,
+      "NOM": "Deux-Sèvres",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Niort",
+      "SUPERFICIE": 5999,
+      "POPULATION": 374435,
+      "DENSITE": 62.4
+    },
+    {
+      "NUMERO": 80,
+      "NOM": "Somme",
+      "REGION": "Hauts-de-France",
+      "CHEF_LIEU": "Amiens",
+      "SUPERFICIE": 6170,
+      "POPULATION": 571879,
+      "DENSITE": 92.7
+    },
+    {
+      "NUMERO": 81,
+      "NOM": "Tarn",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Albi",
+      "SUPERFICIE": 5758,
+      "POPULATION": 386543,
+      "DENSITE": 67.1
+    },
+    {
+      "NUMERO": 82,
+      "NOM": "Tarn-et-Garonne",
+      "REGION": "Occitanie",
+      "CHEF_LIEU": "Montauban",
+      "SUPERFICIE": 3718,
+      "POPULATION": 255274,
+      "DENSITE": 68.7
+    },
+    {
+      "NUMERO": 83,
+      "NOM": "Var",
+      "REGION": "Provence-Alpes-Côte d'Azur",
+      "CHEF_LIEU": "Toulon",
+      "SUPERFICIE": 5973,
+      "POPULATION": 1048652,
+      "DENSITE": 175.6
+    },
+    {
+      "NUMERO": 84,
+      "NOM": "Vaucluse",
+      "REGION": "Provence-Alpes-Côte d'Azur",
+      "CHEF_LIEU": "Avignon",
+      "SUPERFICIE": 3567,
+      "POPULATION": 557548,
+      "DENSITE": 156.3
+    },
+    {
+      "NUMERO": 85,
+      "NOM": "Vandée",
+      "REGION": "Pays de la Loire",
+      "CHEF_LIEU": "La Roche-sur-Yon",
+      "SUPERFICIE": 6720,
+      "POPULATION": 666714,
+      "DENSITE": 99.2
+    },
+    {
+      "NUMERO": 86,
+      "NOM": "Vienne",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Poitiers",
+      "SUPERFICIE": 6990,
+      "POPULATION": 434887,
+      "DENSITE": 62.2
+    },
+    {
+      "NUMERO": 87,
+      "NOM": "Haute-Vienne",
+      "REGION": "Nouvelle-Aquitaine",
+      "CHEF_LIEU": "Limoges",
+      "SUPERFICIE": 5520,
+      "POPULATION": 375795,
+      "DENSITE": 68.1
+    },
+    {
+      "NUMERO": 88,
+      "NOM": "Vosges",
+      "REGION": "Grand Est",
+      "CHEF_LIEU": "Épinal",
+      "SUPERFICIE": 5874,
+      "POPULATION": 372016,
+      "DENSITE": 63.3
+    },
+    {
+      "NUMERO": 89,
+      "NOM": "Yonne",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Auxerre",
+      "SUPERFICIE": 7427,
+      "POPULATION": 340903,
+      "DENSITE": 45.9
+    },
+    {
+      "NUMERO": 90,
+      "NOM": "Territoire de Belfort",
+      "REGION": "Bourgogne-Franche-Comté",
+      "CHEF_LIEU": "Belfort",
+      "SUPERFICIE": 609,
+      "POPULATION": 144483,
+      "DENSITE": 237.1
+    },
+    {
+      "NUMERO": 91,
+      "NOM": "Essonne",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Évry",
+      "SUPERFICIE": 1804,
+      "POPULATION": 1276233,
+      "DENSITE": 707.3
+    },
+    {
+      "NUMERO": 92,
+      "NOM": "Hauts-de-Seine",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Nanterre",
+      "SUPERFICIE": 176,
+      "POPULATION": 1601569,
+      "DENSITE": 9120.6
+    },
+    {
+      "NUMERO": 93,
+      "NOM": "Seine-St-Denis",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Bobigny",
+      "SUPERFICIE": 236,
+      "POPULATION": 1592663,
+      "DENSITE": 6742.9
+    },
+    {
+      "NUMERO": 94,
+      "NOM": "Val-de-Marne",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Créteil",
+      "SUPERFICIE": 245,
+      "POPULATION": 1372389,
+      "DENSITE": 5601.6
+    },
+    {
+      "NUMERO": 95,
+      "NOM": "Val-D'Oise",
+      "REGION": "Ile-de-France",
+      "CHEF_LIEU": "Pontoise",
+      "SUPERFICIE": 1246,
+      "POPULATION": 1215390,
+      "DENSITE": 975.5
+    },
+    {
+      "NUMERO": 971,
+      "NOM": "Guadeloupe",
+      "REGION": "Guadeloupe",
+      "CHEF_LIEU": "Basse-Terre",
+      "SUPERFICIE": 1628,
+      "POPULATION": 397990,
+      "DENSITE": 244.4
+    },
+    {
+      "NUMERO": 972,
+      "NOM": "Martinique",
+      "REGION": "Martinique",
+      "CHEF_LIEU": "Fort-de-France",
+      "SUPERFICIE": 1128,
+      "POPULATION": 380877,
+      "DENSITE": 337.7
+    },
+    {
+      "NUMERO": 973,
+      "NOM": "Guyane",
+      "REGION": "Guyane",
+      "CHEF_LIEU": "Cayenne",
+      "SUPERFICIE": 83534,
+      "POPULATION": 259865,
+      "DENSITE": 3.1
+    },
+    {
+      "NUMERO": 974,
+      "NOM": "La Réunion",
+      "REGION": "La Réunion",
+      "CHEF_LIEU": "Saint-Denis",
+      "SUPERFICIE": 2504,
+      "POPULATION": 850727,
+      "DENSITE": 339.8
+    },
+    {
+      "NUMERO": 976,
+      "NOM": "Mayotte",
+      "REGION": "Mayotte",
+      "CHEF_LIEU": "Dzaoudzi",
+      "SUPERFICIE": 376,
+      "POPULATION": 256518,
+      "DENSITE": 682.2
+    },
+    {
+      "NUMERO": "",
+      "NOM": "",
+      "REGION": "",
+      "CHEF_LIEU": "",
+      "SUPERFICIE": "",
+      "POPULATION": "",
+      "DENSITE": ""
+    }
+  ]
