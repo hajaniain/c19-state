@@ -50,4 +50,24 @@ export class AppService {
         )
       );
   }
+
+  getLiveDataByDate(
+    date: string,
+    departementName: string,
+    sourceType?: SOURCE_TYPE
+  ): Observable<FranceGlobalLiveData> {
+    const apiUrl = `${ROOT_API}/AllDataByDate?date=${date}`;
+
+    return this.http
+      .get<{ allFranceDataByDate: FranceGlobalLiveData[] }>(apiUrl)
+      .pipe(
+        map(
+          (response) =>
+            response.allFranceDataByDate
+              .filter((data) => data.nom === departementName)
+              .find((data) => data.sourceType === sourceType) ||
+            response.allFranceDataByDate[0]
+        )
+      );
+  }
 }
