@@ -16,7 +16,7 @@
     alt="Angular Logo"
     src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.neofis.fr%2Fsingle-post%2F2020%2F03%2F19%2FCOVID-19-Carte-didentit%25C3%25A9-et-recommandations&psig=AOvVaw3wCoUk36pX7VgKiojMJLtW&ust=1600961016204000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCPDk2drK_-sCFQAAAAAdAAAAABAD"
   /> -->
-  <span>Covid19 - Statut</span>
+  <span class="app-title">Covid19 - Statut</span>
   <div class="spacer"></div>
 </div>
 
@@ -24,7 +24,7 @@
   <!-- Highlight Card -->
 
   <form class="departement-form">
-    <mat-form-field class="departement-name">
+    <mat-form-field class="departement-name" appearance="outline">
       <input
         type="text"
         placeholder="Departement"
@@ -54,21 +54,57 @@
       [date]="franceLiveGlobalLiveData.date"
       (changeDate)="selectDate($event)"
     ></app-date>
-    <p>Date: {{ franceLiveGlobalLiveData.date }}</p>
-    <p>Source: {{ franceLiveGlobalLiveData.source.nom }}</p>
-    <p>Cas Confirmés: {{ franceLiveGlobalLiveData.casConfirmes }}</p>
-    <p>Décés: {{ franceLiveGlobalLiveData.deces }}</p>
-    <p>Hospitalisés: {{ franceLiveGlobalLiveData.hospitalises }}</p>
-    <p>En réanimation: {{ franceLiveGlobalLiveData.reanimation }}</p>
-    <p>Guéris: {{ franceLiveGlobalLiveData.gueris }}</p>
-    <p>
-      Nouvelles Hospitalisations:
-      {{ franceLiveGlobalLiveData.nouvellesHospitalisations }}
-    </p>
-    <p>
-      Nouvelles Réanimations:
-      {{ franceLiveGlobalLiveData.nouvellesReanimations }}
-    </p>
+    <span
+      class="simple-date"
+      *ngIf="
+        !departementFormControl.value || departementFormControl.value == ''
+      "
+    >
+      France | {{ franceLiveGlobalLiveData.date | date: "dd/MM/yyyy" }}</span
+    >
+    <div class="list">
+      <mat-card class="item">
+        <span class="label">Cas Confirmés</span>
+        <br />
+        <span class="value">{{ franceLiveGlobalLiveData.casConfirmes }}</span>
+      </mat-card>
+      <mat-card class="item">
+        <span class="label">Décés</span>
+        <br />
+        <span class="value">{{ franceLiveGlobalLiveData.deces }}</span>
+      </mat-card>
+      <mat-card class="item">
+        <span class="label">Hospitalisés</span>
+        <br />
+        <span class="value">{{ franceLiveGlobalLiveData.hospitalises }}</span>
+      </mat-card>
+      <mat-card class="item">
+        <span class="label">En réanimation</span>
+        <br />
+        <span class="value">{{ franceLiveGlobalLiveData.reanimation }}</span>
+      </mat-card>
+      <mat-card class="item">
+        <span class="label">Guéris</span>
+        <br />
+        <span class="value">{{ franceLiveGlobalLiveData.gueris }}</span>
+      </mat-card>
+      <mat-card class="item">
+        <span class="label">Nlles Hospitalisations</span>
+        <br />
+
+        <span class="value">{{
+          franceLiveGlobalLiveData.nouvellesHospitalisations
+        }}</span>
+      </mat-card>
+      <mat-card class="item">
+        <span class="label">Nlles Réanimations</span>
+        <br />
+
+        <span class="value">{{
+          franceLiveGlobalLiveData.nouvellesReanimations
+        }}</span>
+      </mat-card>
+    </div>
   </ng-container>
 </div>
 
