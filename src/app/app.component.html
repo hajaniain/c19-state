@@ -49,6 +49,10 @@
   <ng-container
     *ngIf="franceLiveGlobalLiveData$ | async as franceLiveGlobalLiveData"
   >
+    <!-- <app-date
+      [date]="franceLiveGlobalLiveData.date"
+      (changeDate)="selectDate($event)"
+    ></app-date> -->
     <p>Date: {{ franceLiveGlobalLiveData.date }}</p>
     <p>Source: {{ franceLiveGlobalLiveData.source.nom }}</p>
     <p>Cas Confirmés: {{ franceLiveGlobalLiveData.casConfirmes }}</p>

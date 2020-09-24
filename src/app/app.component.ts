@@ -38,6 +38,9 @@ export class AppComponent {
     this.franceLiveGlobalLiveData$ = this.appService.getFranceLiveGlobalData(
       SOURCE_TYPE.MIN_SANTE
     );
+    this.appService
+      .getFranceLiveGlobalData(SOURCE_TYPE.MIN_SANTE)
+      .subscribe((test) => console.log(test));
   }
 
   departementControlChange(): void {
@@ -57,5 +60,9 @@ export class AppComponent {
     this.franceLiveGlobalLiveData$ = this.appService.getLiveDataByDepartement(
       departement.NOM
     );
+  }
+
+  selectDate(date: string): void {
+    console.log(date);
   }
 }

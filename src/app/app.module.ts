@@ -7,9 +7,10 @@ import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './material.module';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { DateComponent } from './components/date/date.component';
 
 @NgModule({
-  declarations: [AppComponent],
+  declarations: [AppComponent, DateComponent],
   imports: [
     BrowserModule,
     AppRoutingModule,

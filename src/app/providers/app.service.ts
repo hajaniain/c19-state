@@ -26,7 +26,8 @@ export class AppService {
       .pipe(
         map((response) =>
           response.FranceGlobalLiveData.find(
-            (data) => data.sourceType === sourceType
+            (data) =>
+              data.sourceType === sourceType || response.FranceGlobalLiveData[0]
           )
         )
       );
