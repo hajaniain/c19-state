@@ -62,7 +62,7 @@
     >
       France | {{ franceLiveGlobalLiveData.date | date: "dd/MM/yyyy" }}</span
     >
-    <div class="list" *ngIf="departementFormControl.value">
+    <div class="list" *ngIf="!departementFormControl.value">
       <mat-card class="item">
         <span class="label">Cas Confirmés</span>
         <br />
