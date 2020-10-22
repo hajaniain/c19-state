@@ -69,6 +69,16 @@
         <span class="value">{{ franceLiveGlobalLiveData.casConfirmes }}</span>
       </mat-card>
       <mat-card class="item">
+        <span class="label">Décès</span>
+        <br />
+        <span class="value">{{
+          franceLiveGlobalLiveData.decesEhpad + franceLiveGlobalLiveData.deces
+        }}</span>
+      </mat-card>
+    </div>
+    <h2>Données hospitalières</h2>
+    <div class="list">
+      <mat-card class="item">
         <span class="label">Décès à l'hopital </span>
         <br />
         <span class="value">{{ franceLiveGlobalLiveData.deces }}</span>
