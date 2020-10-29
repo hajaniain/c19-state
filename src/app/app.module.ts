@@ -12,7 +12,7 @@ import { DateComponent } from './components/date/date.component';
 @NgModule({
   declarations: [AppComponent, DateComponent],
   imports: [
-    BrowserModule,
+    BrowserModule.withServerTransition({ appId: 'serverApp' }),
     AppRoutingModule,
     BrowserAnimationsModule,
     HttpClientModule,
